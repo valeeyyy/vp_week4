@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.valerie.vp_week4.Soal1.ui.screen.CarApp
+import com.valerie.vp_week4.Soal2.ui.screen.PartyRosterApp
 import com.valerie.vp_week4.ui.theme.Vp_week4Theme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +14,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Vp_week4Theme {
+                // Soal 1
                 CarApp()
+
+                // Soal 2
+                // Untuk play Soal 2: comment CarApp() di atas, lalu uncomment PartyRosterApp() di bawah
+                // PartyRosterApp()
             }
         }
     }

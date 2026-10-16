@@ -6,7 +6,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.remember
 import androidx.compose.ui.composed
 import com.valerie.vp_week4.Soal1.ui.theme.CarTextMileage
